@@ -47,9 +47,6 @@ public class MSD {
          // Input String
         String str[] = { "midnight", "badge",  "bag", "worker",   "banner", "wander" };
 
-        // Size of the string
-        int n = str.length;
-
         System.out.print("Unsorted array : ");
 
         // Print the unsorted array
@@ -57,7 +54,7 @@ public class MSD {
             System.out.print(i + " ");
         }
 
-            // Function Call
+        // Function Call
         MSD_sort(str);
 
         System.out.print("Sorted array : ");
