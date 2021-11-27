@@ -6,7 +6,6 @@ import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.util.ArrayList;
-import java.util.List;
 
 public class TXT {
     public static ArrayList<String> read_txt(String add){
@@ -35,7 +34,7 @@ public class TXT {
             writename.createNewFile(); // 创建新文件
             BufferedWriter out = new BufferedWriter(new FileWriter(writename));
             for(Object i : s){
-                i = (String)(i);
+                //i = (String)(i);
                 out.write(i + "\r\n");
             }
             out.flush(); // 把缓存区内容压入文件
